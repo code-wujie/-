@@ -18,7 +18,7 @@ table=$1
 echo "当前处理的表名:${table}"
 
 #爬虫数据接入库/原始数据仓库
-database_01=db_crawler
+database_01=db_crawler_temp
 database_02=db_crawler_ods
 echo "爬虫数据接入库数据库名:${database_01}"
 echo "爬虫原始数据仓库库名:${database_02}"
