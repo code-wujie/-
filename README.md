@@ -16,3 +16,5 @@ create external table IF NOT EXISTS test2(table string,dotime string,info map<st
   info中存储的为整个json字符串转为map后的数据
   table type dotime 字段的值从json中提取出来的
   格式存储为orc格式（该格式更优）
+  
+针对自定义函数str2map()的方法，在utils的工具类中已经实现。就是讲json字符串转为map的结构。
